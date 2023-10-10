@@ -1,0 +1,98 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "width": 800,
+    "height": 600,
+    "title":"Countries electric",
+
+    "data": {"url": "https://raw.githubusercontent.com/teck-san/FIT3179-homework-10/main/data/global-data-on-sustainable-energy.csv"},
+    "params": [
+      {
+        "name": "year_selection",
+        "value": 2000,
+        "bind": {
+          "input": "range",
+          "min": 2000,
+          "max": 2019,
+          "step": 1,
+          "name": "Year: "
+        }}],
+    "transform": [{
+      "lookup": "Entity",
+      "from": {
+        "data": {"url": "https://raw.githubusercontent.com/teck-san/FIT3179-homework-10/main/data/continents.csv"},
+        "key": "Country",
+        "fields": ["region"]
+      }
+    },{"filter": "datum.Year == year_selection"}],
+    "encoding": {
+      "x": {
+          
+        "field": "Value_co2_emissions_kt_by_country",
+        "type":"quantitative",
+        "axis": {"tickCount": 7},
+        "title": "CO2 Emissions",
+        "scale": {"type": "log","domain": [1, 12000000]}},
+      "y": {
+        "field": "Electricity from fossil fuels (TWh)", 
+        "type": "quantitative",
+        "axis": {"tickCount": 7},
+        "scale": {"type": "sqrt","domain": [0, 5500]}},
+        "color": {"field": "region", "type": "nominal","title":"xxx"},
+        "opacity": {"value": 0.6}
+    },
+    "layer":[
+      {
+    "mark": "circle",
+    "encoding": {
+      
+      "size": {
+        "title":"Low-carbon electricity percentage",
+        "field": "Low-carbon electricity (% electricity)",
+        "type": "quantitative",
+        "scale": {
+          "type": "threshold",
+          "domain": [25, 50, 75, 100],
+          "range": [10, 50, 150, 200, 300]
+        },
+        "legend": {"format": ".1s"}},
+        "tooltip": [
+          {"field": "Entity", "type": "nominal"},
+          {"field": "Low-carbon electricity (% electricity)", "type": "quantitative", "format": ","},
+          {"field": "Electricity from fossil fuels (TWh)", "type": "quantitative", "format": ","},
+          {"field": "Value_co2_emissions_kt_by_country", "type": "quantitative", "format": ",","title":"CO2 Emissions(metric tons per capita) "}
+          
+        ]
+    }},{
+      "mark": {
+      "type": "text",
+      "align": "right",
+      "baseline": "middle",
+      "dx": -12,
+      "fontSize": 11.5,
+      "fontStyle": "italic"
+      },
+      "encoding": {
+      "text": {"field": "Entity", "type": "nominal"},
+      "color": {"value": "black"},
+      "opacity": {
+      "condition": {
+      "test": "datum.Entity == 'China' || datum['Entity'] == 'Japan' || datum['Entity'] == 'India' || datum['Entity'] == 'United States'",
+      "value": 1
+      },
+      "value": 0
+      },
+      "tooltip": [
+        {"field": "Entity", "type": "nominal"},
+        {"field": "Low-carbon electricity (% electricity)", "type": "quantitative", "format": ","},
+        {"field": "Electricity from fossil fuels (TWh)", "type": "quantitative", "format": ","},
+        {"field": "Value_co2_emissions_kt_by_country", "type": "quantitative", "format": ",","title":"CO2 Emissions(metric tons per capita) "}
+        
+      ]
+    }}],
+    "config": {}
+}
+
+      
+
+
+

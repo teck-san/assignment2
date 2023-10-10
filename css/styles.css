@@ -1,0 +1,60 @@
+
+
+
+body {
+	background-color: lightgray;
+  }
+
+#symbol_map {
+	width:100%;
+/*
+	left: 100px;
+	right: 100px;
+	height: 1000px;
+	width: 800px;*/
+}
+
+.page {
+
+	background-color: white;
+	margin: auto;
+	margin-left: 8rem;
+	margin-right:8rem;
+	padding-left: 3rem;
+	padding-right:3rem;
+
+	
+  }
+.vis-container{
+	
+	display: block;
+	
+}
+.vis{
+	margin-bottom: 5rem;
+	display: flex;
+	justify-content: center;
+}
+
+.section-title{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	background-color: yellowgreen;
+	margin-left: 8rem;
+	margin-right:8rem;
+	padding-left: 3rem;
+	padding-right:3rem;
+	
+	
+}
+
+.title-p{
+	text-align: center;
+}
+
+
+
+
+

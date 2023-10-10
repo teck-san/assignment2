@@ -1,0 +1,136 @@
+
+
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "data": {"url": "https://raw.githubusercontent.com/teck-san/FIT3179-homework-10/main/data/global-data-on-sustainable-energy.csv"},
+
+    "transform": [{
+        "lookup": "Entity",
+        "from": {
+          "data": {"url": "https://raw.githubusercontent.com/teck-san/FIT3179-homework-10/main/data/continents.csv"},
+          "key": "Country",
+          "fields": ["region"]
+        }
+      },{"filter": "datum.Year == 2010"}],
+    
+    
+    
+    "hconcat": [{
+
+
+    "height": 400,
+    "width": 250,
+    "title": {
+        "text": "Electricity from fossil fuel (TWh)",
+        "baseline": "bottom",
+        "align": "center"     
+    },
+    "encoding": {
+        "y": {
+            "field": "region",
+            "type": "nominal",
+            "title":null,
+            "axis":null
+
+        },
+        "x": {
+            "aggregate": "sum", "field": "Electricity from fossil fuels (TWh)",
+            "title": "Electricity generated from fossil fuel (TWh)",
+            "sort": "descending"
+        },
+        "tooltip": [
+            {"field": "region", "type": "nominal", "title": "Region"},
+            {"field": "Electricity from fossil fuels (TWh)", "type": "quantitative", "title": "Electricity from fossil fuel (TWh)"}
+        ]
+    },
+    "layer": [
+        {
+            "params": [
+                {
+                    "name": "highlight",
+                    "select": {"type": "point", "on": "mouseover"}
+                },
+                {"name": "select", "select": "point"}
+            ],
+            "mark": {
+                "type": "bar",
+                "stroke": "#909090",
+                "cursor": "pointer"
+            },
+            "encoding": {
+                "color": {
+                    "field": "value",
+                    "type": "quantitative",
+                    "scale": {"scheme": "yellowgreen", "domain": [0, 60]},
+                    "legend": null
+                }
+            }
+        },
+        {
+            "mark": {
+                "type": "bar",
+                "color": "lightgoldenrodyellow"
+            }
+        
+        }]
+    },
+    
+    {
+        "height": 400,
+        "width": 20,
+        
+        "mark": {
+            "type": "text",
+            "align": "center",
+            "color": "black"
+        },
+        "encoding": {
+            "y": {"field": "region", "type": "nominal", "axis": null},
+            "text": {"field": "region", "type": "nominal"}
+        }
+    },
+{
+    "height": 400,
+    "width": 250,
+    "title": {
+        "text": "CO2 emission",
+        "baseline": "bottom",
+        "align": "center"
+    },
+    "encoding": {
+        "y": {
+            "field": "region",
+            "type": "nominal",
+            "title":null,
+            "axis":null
+
+        },
+        "x": {
+            "aggregate": "sum", "field": "Value_co2_emissions_kt_by_country",
+            "title": "CO2 emissions"
+            
+        },
+        "tooltip": [
+            {"field": "region", "type": "nominal", "title": "Region"},
+            {"field":"Entity","type":"nominal","title":"Country"},
+            {"field": "Value_co2_emissions_kt_by_country", "type": "quantitative", "title": "CO2 Emission"}
+        ]
+    },
+    "mark": {
+        "type": "bar",
+        "color": "gray"
+    }
+        
+        
+}
+],
+"config": {
+    "background": null,
+    "view": {"stroke": null}
+}  
+}
+
+
+
+
+  

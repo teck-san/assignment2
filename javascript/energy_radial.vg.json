@@ -1,0 +1,48 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "description": "A simple radial chart with embedded data.",
+    "height":400,
+    "width":400,
+    "data": {"url": "https://raw.githubusercontent.com/teck-san/FIT3179-homework-10/main/data/global-data-on-sustainable-energy.csv"},
+    "params": [
+      {
+        "name": "year_selection",
+        "value": 2000,
+        "bind": {
+          "input": "range",
+          "min": 2000,
+          "max": 2020,
+          "step": 1,
+          "name": "Year: "
+        }}],
+    "transform": [{
+      "lookup": "Entity",
+      "from": {
+        "data": {"url": "https://raw.githubusercontent.com/teck-san/FIT3179-homework-10/main/data/continents.csv"},
+        "key": "Country",
+        "fields": ["region"]
+      }
+    },{"filter": "datum.Year == year_selection"},{
+        "aggregate": [{
+         "op": "sum",
+         "field": "Primary energy consumption per capita (kWh/person)",
+         "as": "energy_consumption_per_capita"
+        }],
+        "groupby": ["region"]
+        
+      }],
+    "layer": [{
+      "mark": {"type": "arc", "innerRadius": 20, "stroke": "#fff"}
+    },{
+      "mark": {"type": "text", "radiusOffset": 10},
+      "encoding": {
+        "text": {"field": "region", "type": "nominal"},"color": {"value": "black"}
+      }
+    }],
+    "encoding": {
+      "theta": {"field": "energy_consumption_per_capita", "type": "quantitative", "stack": true},
+      "radius": {"field": "energy_consumption_per_capita", "scale": {"type": "sqrt", "zero": true, "rangeMin": 20}},
+      "color": {"field": "region", "type": "nominal", "legend": null},
+      "tooltip":[{"field":"region","type":"nominal","title":"Region"},{"field":"energy_consumption_per_capita","title":"Energy Consumption per Capita"}]
+    }
+  }

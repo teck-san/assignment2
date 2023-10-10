@@ -1,0 +1,45 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "description": "A simple donut chart with embedded data.",
+    "data": {"url": "https://raw.githubusercontent.com/teck-san/FIT3179-homework-10/main/data/global-data-on-sustainable-energy.csv"},
+    "params": [
+        {
+          "name": "year_selection",
+          "value": 2000,
+          "bind": {
+            "input": "range",
+            "min": 2000,
+            "max": 2020,
+            "step": 1,
+            "name": "Year: "
+          }}],
+      "transform": [{
+        "lookup": "Entity",
+        "from": {
+          "data": {"url": "https://raw.githubusercontent.com/teck-san/FIT3179-homework-10/main/data/continents.csv"},
+          "key": "Country",
+          "fields": ["region"]
+        }
+      },{"filter": "datum.Year == year_selection"},{
+          "aggregate": [{
+           "op": "sum",
+           "field": "Electricity from nuclear (TWh)",
+           "as": "energy_nuclear"
+          }],
+          "groupby": ["region"]
+          
+        }],
+    
+    
+    "mark": {"type": "arc", "innerRadius": 50},
+    "encoding": {
+      "theta": {"field": "energy_nuclear", "type": "quantitative"},
+      "color": {"field": "region", "type": "nominal"},
+      "tooltip":[{"field":"region","type":"nominal","title":"Region"},{"field":"energy_nuclear","title":"Energy generated from nuclear (TWh)"}]
+    }
+    
+  }
+
+
+
+  
