@@ -1,0 +1,699 @@
+Country,primary_fuel,Count
+Afghanistan,Gas,1
+Afghanistan,Hydro,6
+Afghanistan,Solar,2
+Albania,Hydro,7
+Albania,Other,1
+Algeria,Gas,31
+Algeria,Hydro,1
+Algeria,Solar,27
+Angola,Gas,3
+Angola,Hydro,5
+Angola,Oil,6
+Antarctica,Oil,1
+Antarctica,Wind,1
+Argentina,Coal,9
+Argentina,Gas,57
+Argentina,Hydro,50
+Argentina,Nuclear,3
+Argentina,Oil,96
+Argentina,Other,2
+Argentina,Solar,7
+Argentina,Wind,12
+Armenia,Gas,3
+Armenia,Hydro,4
+Armenia,Nuclear,1
+Australia,Biomass,25
+Australia,Coal,28
+Australia,Gas,134
+Australia,Hydro,73
+Australia,Oil,42
+Australia,Solar,69
+Australia,Waste,50
+Australia,Wind,65
+Austria,Gas,3
+Austria,Hydro,96
+Austria,Wind,4
+Azerbaijan,Gas,8
+Azerbaijan,Hydro,5
+Azerbaijan,Oil,1
+Bahrain,Gas,6
+Bahrain,Oil,1
+Bahrain,Solar,1
+Bangladesh,Coal,1
+Bangladesh,Gas,27
+Bangladesh,Hydro,1
+Bangladesh,Oil,26
+Bangladesh,Solar,2
+Belarus,Gas,17
+Belarus,Solar,7
+Belgium,Biomass,2
+Belgium,Coal,1
+Belgium,Gas,20
+Belgium,Hydro,11
+Belgium,Nuclear,3
+Belgium,Oil,9
+Belgium,Solar,3
+Belgium,Waste,8
+Belgium,Wind,12
+Benin,Gas,1
+Benin,Oil,1
+Bhutan,Hydro,5
+Bolivia,Gas,9
+Bolivia,Hydro,14
+Bolivia,Solar,3
+Bosnia and Herzegovina,Coal,4
+Bosnia and Herzegovina,Hydro,16
+Botswana,Coal,2
+Brazil,Biomass,444
+Brazil,Coal,19
+Brazil,Gas,118
+Brazil,Hydro,701
+Brazil,Nuclear,2
+Brazil,Oil,627
+Brazil,Other,1
+Brazil,Solar,24
+Brazil,Waste,12
+Brazil,Wind,412
+Brunei Darussalam,Gas,4
+Bulgaria,Coal,11
+Bulgaria,Hydro,7
+Bulgaria,Nuclear,1
+Bulgaria,Solar,23
+Bulgaria,Wind,1
+Burkina Faso,Hydro,2
+Burkina Faso,Oil,3
+Burkina Faso,Solar,2
+Burundi,Hydro,3
+Burundi,Solar,1
+Cambodia,Biomass,1
+Cambodia,Coal,2
+Cambodia,Hydro,5
+Cambodia,Oil,3
+Cambodia,Solar,3
+Cambodia,Waste,2
+Cameroon,Gas,1
+Cameroon,Hydro,3
+Cameroon,Oil,4
+Canada,Biomass,111
+Canada,Coal,15
+Canada,Gas,75
+Canada,Hydro,556
+Canada,Nuclear,6
+Canada,Oil,9
+Canada,Other,2
+Canada,Solar,143
+Canada,Wave and Tidal,1
+Canada,Wind,241
+Cape Verde,Oil,3
+Cape Verde,Solar,1
+Central African Republic,Hydro,1
+Central African Republic,Oil,1
+Chile,Biomass,22
+Chile,Coal,14
+Chile,Gas,11
+Chile,Hydro,99
+Chile,Oil,73
+Chile,Petcoke,1
+Chile,Solar,77
+Chile,Wind,18
+China,Coal,946
+China,Gas,170
+China,Geothermal,2
+China,Hydro,947
+China,Nuclear,12
+China,Oil,5
+China,Solar,1318
+China,Wind,835
+Colombia,Coal,5
+Colombia,Gas,5
+Colombia,Hydro,12
+Colombia,Oil,1
+Colombia,Solar,2
+Congo,Gas,2
+Congo,Hydro,4
+Congo,Oil,2
+Costa Rica,Geothermal,5
+Costa Rica,Hydro,18
+Costa Rica,Oil,3
+Costa Rica,Solar,1
+Cote DIvoire,Gas,3
+Cote DIvoire,Hydro,5
+Croatia,Coal,1
+Croatia,Gas,4
+Croatia,Hydro,17
+Croatia,Oil,2
+Cuba,Gas,2
+Cuba,Oil,9
+Cuba,Solar,2
+Cuba,Wind,1
+Cyprus,Gas,1
+Cyprus,Oil,2
+Czech Republic,Coal,22
+Czech Republic,Gas,3
+Czech Republic,Hydro,8
+Czech Republic,Nuclear,2
+Czech Republic,Solar,427
+Democratic Republic of the Congo,Gas,1
+Democratic Republic of the Congo,Hydro,13
+Democratic Republic of the Congo,Oil,1
+Denmark,Biomass,1
+Denmark,Coal,10
+Denmark,Gas,3
+Denmark,Geothermal,1
+Denmark,Oil,1
+Denmark,Solar,12
+Denmark,Wind,19
+Djibouti,Oil,1
+Dominican Republic,Coal,2
+Dominican Republic,Gas,1
+Dominican Republic,Hydro,3
+Dominican Republic,Oil,5
+Dominican Republic,Solar,3
+Dominican Republic,Wind,1
+Ecuador,Gas,4
+Ecuador,Hydro,10
+Ecuador,Oil,6
+Ecuador,Solar,2
+Egypt,Gas,33
+Egypt,Hydro,4
+Egypt,Oil,5
+Egypt,Solar,19
+Egypt,Wind,1
+El Salvador,Geothermal,2
+El Salvador,Hydro,4
+El Salvador,Oil,2
+El Salvador,Solar,8
+Equatorial Guinea,Gas,2
+Equatorial Guinea,Hydro,1
+Eritrea,Oil,2
+Estonia,Gas,2
+Estonia,Oil,2
+Estonia,Wind,13
+Ethiopia,Geothermal,1
+Ethiopia,Hydro,11
+Ethiopia,Wind,1
+Fiji,Biomass,3
+Fiji,Hydro,4
+Fiji,Oil,4
+Fiji,Wind,1
+Finland,Biomass,39
+Finland,Coal,5
+Finland,Gas,17
+Finland,Hydro,95
+Finland,Nuclear,2
+Finland,Oil,11
+Finland,Other,4
+Finland,Wind,12
+France,Biomass,148
+France,Coal,5
+France,Gas,9
+France,Geothermal,1
+France,Hydro,429
+France,Nuclear,19
+France,Oil,5
+France,Solar,817
+France,Wave and Tidal,1
+France,Wind,721
+French Guiana,Biomass,1
+French Guiana,Gas,2
+French Guiana,Hydro,1
+French Guiana,Oil,1
+French Guiana,Solar,1
+Gabon,Gas,2
+Gabon,Hydro,3
+Gabon,Oil,1
+Gambia,Oil,2
+Georgia,Gas,3
+Georgia,Hydro,16
+Germany,Biomass,53
+Germany,Coal,96
+Germany,Gas,180
+Germany,Hydro,112
+Germany,Nuclear,7
+Germany,Oil,24
+Germany,Other,11
+Germany,Solar,735
+Germany,Waste,66
+Germany,Wind,25
+Ghana,Gas,2
+Ghana,Hydro,3
+Ghana,Solar,1
+Greece,Coal,6
+Greece,Gas,12
+Greece,Hydro,18
+Greece,Oil,3
+Greece,Solar,38
+Greece,Waste,1
+Greece,Wind,12
+Guatemala,Biomass,13
+Guatemala,Coal,5
+Guatemala,Geothermal,2
+Guatemala,Hydro,30
+Guatemala,Oil,19
+Guatemala,Solar,3
+Guatemala,Waste,2
+Guatemala,Wind,2
+Guinea,Hydro,6
+Guinea,Oil,3
+Guinea-Bissau,Oil,1
+Guyana,Biomass,1
+Guyana,Oil,4
+Honduras,Biomass,4
+Honduras,Gas,1
+Honduras,Geothermal,1
+Honduras,Hydro,12
+Honduras,Oil,5
+Honduras,Solar,15
+Honduras,Waste,1
+Honduras,Wind,1
+Hungary,Coal,3
+Hungary,Gas,8
+Hungary,Nuclear,1
+Hungary,Oil,1
+Hungary,Solar,5
+Iceland,Geothermal,6
+Iceland,Hydro,14
+India,Biomass,50
+India,Coal,253
+India,Gas,68
+India,Hydro,233
+India,Nuclear,9
+India,Oil,17
+India,Solar,851
+India,Wind,108
+Indonesia,Coal,70
+Indonesia,Gas,41
+Indonesia,Geothermal,10
+Indonesia,Hydro,41
+Indonesia,Oil,16
+Iran,Gas,60
+Iran,Hydro,19
+Iran,Nuclear,1
+Iran,Oil,18
+Iran,Solar,8
+Iran,Wind,1
+Iraq,Gas,14
+Iraq,Hydro,8
+Iraq,Oil,6
+Ireland,Biomass,1
+Ireland,Coal,1
+Ireland,Gas,10
+Ireland,Hydro,3
+Ireland,Oil,6
+Ireland,Wind,38
+Israel,Coal,2
+Israel,Gas,18
+Israel,Solar,37
+Israel,Wind,2
+Italy,Coal,9
+Italy,Gas,57
+Italy,Geothermal,33
+Italy,Hydro,58
+Italy,Oil,11
+Italy,Other,4
+Italy,Solar,223
+Italy,Wind,1
+Jamaica,Gas,1
+Jamaica,Hydro,3
+Jamaica,Oil,4
+Jamaica,Solar,1
+Jamaica,Wind,1
+Japan,Coal,51
+Japan,Gas,29
+Japan,Geothermal,14
+Japan,Hydro,55
+Japan,Nuclear,16
+Japan,Oil,26
+Japan,Solar,324
+Japan,Waste,1
+Japan,Wind,6
+Jordan,Gas,7
+Jordan,Oil,1
+Jordan,Solar,25
+Kazakhstan,Coal,22
+Kazakhstan,Gas,2
+Kazakhstan,Hydro,4
+Kazakhstan,Solar,5
+Kenya,Geothermal,6
+Kenya,Hydro,8
+Kenya,Oil,6
+Kenya,Solar,1
+Kenya,Wind,2
+Kosovo,Coal,2
+Kuwait,Gas,8
+Kuwait,Solar,1
+Kyrgyzstan,Coal,1
+Kyrgyzstan,Hydro,6
+Kyrgyzstan,Oil,1
+Laos,Coal,1
+Laos,Hydro,19
+Latvia,Gas,2
+Latvia,Hydro,3
+Lebanon,Gas,2
+Lebanon,Oil,5
+Lesotho,Hydro,1
+Liberia,Hydro,1
+Liberia,Oil,1
+Libya,Gas,9
+Libya,Oil,3
+Lithuania,Gas,4
+Lithuania,Hydro,2
+Luxembourg,Gas,1
+Luxembourg,Hydro,1
+Macedonia,Coal,2
+Macedonia,Hydro,10
+Madagascar,Coal,1
+Madagascar,Gas,2
+Madagascar,Hydro,5
+Madagascar,Oil,3
+Madagascar,Solar,1
+Malawi,Biomass,1
+Malawi,Gas,1
+Malawi,Hydro,3
+Malaysia,Biomass,1
+Malaysia,Coal,7
+Malaysia,Gas,20
+Malaysia,Hydro,9
+Malaysia,Oil,4
+Malaysia,Solar,14
+Mali,Hydro,4
+Mauritania,Gas,1
+Mauritania,Oil,3
+Mauritania,Solar,2
+Mauritania,Wind,1
+Mauritius,Biomass,5
+Mauritius,Coal,4
+Mauritius,Hydro,3
+Mauritius,Oil,5
+Mauritius,Solar,6
+Mexico,Biomass,62
+Mexico,Coal,3
+Mexico,Gas,61
+Mexico,Geothermal,5
+Mexico,Hydro,73
+Mexico,Nuclear,1
+Mexico,Oil,23
+Mexico,Solar,29
+Mexico,Wind,20
+Moldova,Coal,1
+Moldova,Gas,3
+Moldova,Hydro,2
+Mongolia,Coal,3
+Mongolia,Solar,4
+Mongolia,Wind,1
+Montenegro,Coal,1
+Montenegro,Hydro,2
+Morocco,Coal,3
+Morocco,Gas,3
+Morocco,Hydro,18
+Morocco,Oil,5
+Morocco,Solar,5
+Morocco,Wind,11
+Mozambique,Hydro,3
+Myanmar,Coal,2
+Myanmar,Gas,12
+Myanmar,Hydro,20
+Myanmar,Solar,1
+Namibia,Coal,1
+Namibia,Hydro,1
+Namibia,Oil,3
+Namibia,Solar,8
+Nepal,Hydro,12
+Nepal,Solar,2
+Netherlands,Coal,5
+Netherlands,Gas,12
+Netherlands,Nuclear,1
+Netherlands,Solar,13
+Netherlands,Wind,40
+New Zealand,Coal,1
+New Zealand,Gas,3
+New Zealand,Geothermal,7
+New Zealand,Hydro,24
+New Zealand,Oil,1
+New Zealand,Wind,7
+Nicaragua,Gas,1
+Nicaragua,Geothermal,2
+Nicaragua,Hydro,2
+Nicaragua,Oil,8
+Nicaragua,Solar,1
+Nicaragua,Waste,2
+Niger,Coal,1
+Niger,Oil,5
+Niger,Solar,1
+Nigeria,Gas,9
+Nigeria,Hydro,3
+Nigeria,Solar,1
+North Korea,Coal,16
+North Korea,Hydro,15
+Norway,Gas,5
+Norway,Hydro,291
+Norway,Wind,10
+Oman,Gas,9
+Oman,Solar,3
+Pakistan,Coal,7
+Pakistan,Gas,13
+Pakistan,Hydro,13
+Pakistan,Nuclear,2
+Pakistan,Oil,14
+Pakistan,Solar,6
+Pakistan,Wind,7
+Palestine,Solar,1
+Panama,Coal,1
+Panama,Gas,1
+Panama,Hydro,8
+Panama,Oil,4
+Panama,Solar,3
+Papua New Guinea,Gas,1
+Papua New Guinea,Geothermal,1
+Papua New Guinea,Hydro,6
+Papua New Guinea,Oil,7
+Paraguay,Hydro,3
+Peru,Coal,1
+Peru,Gas,9
+Peru,Hydro,14
+Peru,Solar,6
+Peru,Wind,2
+Philippines,Biomass,2
+Philippines,Coal,23
+Philippines,Gas,5
+Philippines,Geothermal,9
+Philippines,Hydro,17
+Philippines,Oil,17
+Philippines,Solar,48
+Philippines,Wind,2
+Poland,Biomass,2
+Poland,Coal,71
+Poland,Gas,14
+Poland,Hydro,32
+Poland,Oil,2
+Poland,Solar,9
+Poland,Wind,59
+Portugal,Biomass,19
+Portugal,Coal,2
+Portugal,Gas,4
+Portugal,Geothermal,2
+Portugal,Hydro,122
+Portugal,Solar,72
+Portugal,Waste,24
+Portugal,Wind,224
+Qatar,Gas,12
+Romania,Coal,10
+Romania,Gas,8
+Romania,Hydro,10
+Romania,Nuclear,1
+Romania,Solar,36
+Romania,Wind,3
+Russia,Biomass,3
+Russia,Coal,96
+Russia,Gas,258
+Russia,Geothermal,3
+Russia,Hydro,105
+Russia,Nuclear,10
+Russia,Oil,8
+Russia,Other,2
+Russia,Solar,57
+Russia,Wind,3
+Rwanda,Gas,1
+Rwanda,Hydro,6
+Rwanda,Oil,2
+Rwanda,Solar,1
+Rwanda,Waste,1
+Saint Lucia,Solar,1
+Saudi Arabia,Gas,31
+Saudi Arabia,Oil,53
+Saudi Arabia,Solar,6
+Senegal,Hydro,1
+Senegal,Oil,5
+Senegal,Solar,4
+Serbia,Coal,8
+Serbia,Hydro,4
+Sierra Leone,Hydro,1
+Sierra Leone,Oil,2
+Singapore,Gas,8
+Singapore,Oil,3
+Singapore,Waste,3
+Slovakia,Coal,2
+Slovakia,Gas,3
+Slovakia,Hydro,21
+Slovakia,Nuclear,2
+Slovakia,Solar,2
+Slovenia,Coal,3
+Slovenia,Gas,1
+Slovenia,Hydro,3
+Slovenia,Nuclear,1
+South Africa,Biomass,2
+South Africa,Coal,17
+South Africa,Gas,2
+South Africa,Hydro,6
+South Africa,Nuclear,1
+South Africa,Oil,2
+South Africa,Solar,44
+South Africa,Waste,6
+South Africa,Wind,24
+South Korea,Biomass,2
+South Korea,Coal,18
+South Korea,Gas,33
+South Korea,Hydro,36
+South Korea,Nuclear,6
+South Korea,Oil,3
+South Korea,Solar,17
+South Korea,Waste,4
+South Korea,Wave and Tidal,1
+South Korea,Wind,12
+Spain,Biomass,1
+Spain,Coal,15
+Spain,Gas,58
+Spain,Hydro,124
+Spain,Nuclear,5
+Spain,Oil,26
+Spain,Solar,243
+Spain,Waste,15
+Spain,Wind,342
+Sri Lanka,Coal,1
+Sri Lanka,Hydro,21
+Sri Lanka,Oil,9
+Sri Lanka,Solar,3
+Sri Lanka,Wind,14
+Sudan,Biomass,2
+Sudan,Gas,1
+Sudan,Hydro,6
+Sudan,Oil,10
+Suriname,Solar,1
+Swaziland,Biomass,3
+Swaziland,Hydro,3
+Sweden,Biomass,8
+Sweden,Coal,1
+Sweden,Gas,3
+Sweden,Hydro,142
+Sweden,Nuclear,3
+Sweden,Oil,1
+Sweden,Wind,10
+Switzerland,Hydro,162
+Switzerland,Nuclear,4
+Switzerland,Solar,2
+Syrian Arab Republic,Gas,8
+Syrian Arab Republic,Hydro,3
+Syrian Arab Republic,Oil,7
+Taiwan,Coal,7
+Taiwan,Gas,9
+Taiwan,Hydro,9
+Taiwan,Nuclear,3
+Taiwan,Oil,1
+Taiwan,Solar,3
+Taiwan,Wind,7
+Tajikistan,Hydro,8
+Tajikistan,Oil,2
+Tanzania,Gas,4
+Tanzania,Hydro,6
+Tanzania,Oil,1
+Thailand,Biomass,5
+Thailand,Coal,5
+Thailand,Gas,33
+Thailand,Hydro,10
+Thailand,Solar,141
+Thailand,Wind,2
+Togo,Gas,1
+Togo,Hydro,1
+Togo,Oil,1
+Trinidad and Tobago,Gas,4
+Trinidad and Tobago,Oil,2
+Tunisia,Gas,19
+Tunisia,Hydro,6
+Tunisia,Wind,2
+Turkey,Coal,24
+Turkey,Gas,21
+Turkey,Geothermal,11
+Turkey,Hydro,28
+Turkey,Oil,3
+Turkey,Solar,68
+Turkey,Wind,8
+Turkmenistan,Gas,5
+Turkmenistan,Oil,2
+Uganda,Biomass,1
+Uganda,Hydro,6
+Uganda,Oil,1
+Uganda,Solar,3
+Ukraine,Coal,21
+Ukraine,Gas,2
+Ukraine,Hydro,10
+Ukraine,Nuclear,4
+Ukraine,Solar,27
+United Arab Emirates,Gas,24
+United Arab Emirates,Solar,6
+United Kingdom,Biomass,226
+United Kingdom,Coal,8
+United Kingdom,Cogeneration,7
+United Kingdom,Gas,55
+United Kingdom,Hydro,119
+United Kingdom,Nuclear,8
+United Kingdom,Oil,11
+United Kingdom,Solar,1170
+United Kingdom,Storage,31
+United Kingdom,Waste,329
+United Kingdom,Wave and Tidal,7
+United Kingdom,Wind,780
+United States of America,Biomass,153
+United States of America,Coal,286
+United States of America,Cogeneration,34
+United States of America,Gas,1818
+United States of America,Geothermal,65
+United States of America,Hydro,1449
+United States of America,Nuclear,58
+United States of America,Oil,876
+United States of America,Other,16
+United States of America,Petcoke,11
+United States of America,Solar,3283
+United States of America,Storage,104
+United States of America,Waste,541
+United States of America,Wind,1139
+Uruguay,Biomass,10
+Uruguay,Gas,3
+Uruguay,Hydro,4
+Uruguay,Oil,4
+Uruguay,Solar,13
+Uruguay,Wind,39
+Uzbekistan,Coal,2
+Uzbekistan,Gas,6
+Uzbekistan,Hydro,6
+Uzbekistan,Oil,1
+Uzbekistan,Solar,1
+Venezuela,Gas,34
+Venezuela,Hydro,9
+Vietnam,Biomass,2
+Vietnam,Coal,24
+Vietnam,Gas,9
+Vietnam,Hydro,174
+Vietnam,Oil,6
+Vietnam,Solar,16
+Vietnam,Wind,5
+Western Sahara,Oil,1
+Yemen,Gas,1
+Yemen,Oil,6
+Zambia,Biomass,1
+Zambia,Coal,1
+Zambia,Hydro,5
+Zambia,Oil,7
+Zambia,Solar,1
+Zimbabwe,Coal,1
+Zimbabwe,Hydro,1
