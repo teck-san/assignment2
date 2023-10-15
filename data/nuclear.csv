@@ -1,0 +1,196 @@
+Country,latitude,longitude,primary_fuel
+Argentina,-33.967,-59.2059,Nuclear
+Argentina,-33.9674,-59.2045,Nuclear
+Argentina,-32.2316,-64.4422,Nuclear
+Armenia,40.1805,44.1498,Nuclear
+Belgium,51.3254,4.2597,Nuclear
+Belgium,50.5342,5.2751,Nuclear
+Belgium,50.5342,5.2751,Nuclear
+Brazil,-23.0087,-44.4574,Nuclear
+Brazil,-23.0072,-44.4588,Nuclear
+Bulgaria,43.7438,23.7723,Nuclear
+Canada,44.3391,-81.5747,Nuclear
+Canada,44.319,-81.6027,Nuclear
+Canada,43.8697,-78.7239,Nuclear
+Canada,43.8107,-79.0689,Nuclear
+Canada,43.8096,-79.0639,Nuclear
+Canada,45.0686,-66.4543,Nuclear
+China,39.74,116.03,Nuclear
+China,19.46,108.9,Nuclear
+China,22.6,114.54,Nuclear
+China,21.67,108.56,Nuclear
+China,30.44,120.94,Nuclear
+China,25.4426,119.444,Nuclear
+China,39.8,121.48,Nuclear
+China,22.6,114.55,Nuclear
+China,27.0446,120.2855,Nuclear
+China,30.433,120.9501,Nuclear
+China,34.69,119.46,Nuclear
+China,21.71,112.26,Nuclear
+Czech Republic,49.0852,16.1479,Nuclear
+Czech Republic,49.1796,14.3795,Nuclear
+Finland,60.3708,26.3468,Nuclear
+Finland,61.2371,21.4433,Nuclear
+France,47.5103,2.875,Nuclear
+France,45.256,-0.6932,Nuclear
+France,45.7973,5.2706,Nuclear
+France,49.416,6.2169,Nuclear
+France,47.2254,0.1656,Nuclear
+France,50.09,4.7894,Nuclear
+France,46.4563,0.6548,Nuclear
+France,44.6325,4.7546,Nuclear
+France,47.7321,2.5185,Nuclear
+France,47.9032,7.5631,Nuclear
+France,49.5366,-1.8823,Nuclear
+France,44.106,0.8443,Nuclear
+France,51.0141,2.1332,Nuclear
+France,48.5171,3.5181,Nuclear
+France,49.8582,0.6354,Nuclear
+France,49.9764,1.2107,Nuclear
+France,45.4043,4.7554,Nuclear
+France,47.7197,1.5783,Nuclear
+France,44.3311,4.7311,Nuclear
+Germany,53.8506,9.345,Nuclear
+Germany,52.4716,7.3204,Nuclear
+Germany,52.0356,9.4135,Nuclear
+Germany,48.6049,12.2936,Nuclear
+Germany,48.515,10.4016,Nuclear
+Germany,49.0408,9.1759,Nuclear
+Germany,49.2529,8.4364,Nuclear
+Hungary,46.5739,18.8536,Nuclear
+India,24.8747,75.6189,Nuclear
+India,14.865,74.4385,Nuclear
+India,21.2384,73.3489,Nuclear
+India,8.1691,77.1327,Nuclear
+India,8.1689,77.7126,Nuclear
+India,12.5571,80.1754,Nuclear
+India,28.156,78.4089,Nuclear
+India,24.8747,75.6189,Nuclear
+India,19.8294,72.6617,Nuclear
+Iran,28.8298,50.8857,Nuclear
+Japan,37.3164,141.0265,Nuclear
+Japan,33.5152,129.836,Nuclear
+Japan,34.6235,138.1421,Nuclear
+Japan,41.188,141.3903,Nuclear
+Japan,33.4909,132.3088,Nuclear
+Japan,37.4259,138.5941,Nuclear
+Japan,35.7024,135.9634,Nuclear
+Japan,35.5424,135.6544,Nuclear
+Japan,38.4,141.5,Nuclear
+Japan,31.8335,130.1887,Nuclear
+Japan,37.0609,136.7265,Nuclear
+Japan,35.5379,132.9991,Nuclear
+Japan,35.5223,135.5036,Nuclear
+Japan,36.4215,140.6028,Nuclear
+Japan,43.0367,140.5125,Nuclear
+Japan,35.7519,136.0189,Nuclear
+Mexico,19.7208,-96.4064,Nuclear
+Netherlands,51.4312,3.7174,Nuclear
+Pakistan,32.392,71.4616,Nuclear
+Pakistan,24.845,66.7888,Nuclear
+Romania,44.3215,28.0568,Nuclear
+Russia,52.0928,47.9539,Nuclear
+Russia,56.8417,61.3225,Nuclear
+Russia,68.0503,166.5389,Nuclear
+Russia,57.905,35.0614,Nuclear
+Russia,67.4667,32.4667,Nuclear
+Russia,51.675,35.6056,Nuclear
+Russia,59.8528,29.0486,Nuclear
+Russia,51.2822,39.21,Nuclear
+Russia,47.5993,42.3717,Nuclear
+Russia,54.1647,33.2367,Nuclear
+Slovakia,48.496,17.6816,Nuclear
+Slovakia,48.2621,18.459,Nuclear
+Slovenia,45.9389,15.516,Nuclear
+South Africa,-33.6737,18.4281,Nuclear
+South Korea,35.4105,126.4175,Nuclear
+South Korea,37.0931,129.383,Nuclear
+South Korea,35.3199,129.2948,Nuclear
+South Korea,35.3271,129.3017,Nuclear
+South Korea,35.7221,129.4786,Nuclear
+South Korea,35.7111,129.4743,Nuclear
+Spain,41.2008,0.5679,Nuclear
+Spain,39.807,-5.6986,Nuclear
+Spain,39.2134,-1.0509,Nuclear
+Spain,40.7016,-2.6227,Nuclear
+Spain,40.9511,0.8662,Nuclear
+Sweden,60.4028,18.1744,Nuclear
+Sweden,57.413,16.6683,Nuclear
+Sweden,57.2574,12.1087,Nuclear
+Switzerland,47.552,8.2281,Nuclear
+Switzerland,47.3656,7.968,Nuclear
+Switzerland,47.6012,8.1845,Nuclear
+Switzerland,46.9689,7.2684,Nuclear
+Taiwan,25.2861,121.5874,Nuclear
+Taiwan,25.2025,121.6629,Nuclear
+Taiwan,21.9589,120.7501,Nuclear
+Ukraine,50.3024,26.6473,Nuclear
+Ukraine,51.3245,25.8974,Nuclear
+Ukraine,47.812,31.22,Nuclear
+Ukraine,47.5119,34.5863,Nuclear
+United Kingdom,50.9133,0.964,Nuclear
+United Kingdom,54.6341,-1.1801,Nuclear
+United Kingdom,54.0285,-2.916,Nuclear
+United Kingdom,54.0285,-2.916,Nuclear
+United Kingdom,51.2085,-3.1334,Nuclear
+United Kingdom,55.7204,-4.8964,Nuclear
+United Kingdom,52.2145,1.6206,Nuclear
+United Kingdom,55.9679,-2.4086,Nuclear
+United States of America,35.311,-93.2351,Nuclear
+United States of America,40.6219,-80.4336,Nuclear
+United States of America,41.2435,-88.2286,Nuclear
+United States of America,34.7042,-87.1189,Nuclear
+United States of America,33.9597,-78.0114,Nuclear
+United States of America,42.0742,-89.2819,Nuclear
+United States of America,38.7589,-91.7788,Nuclear
+United States of America,38.4344,-76.4417,Nuclear
+United States of America,35.0514,-81.0694,Nuclear
+United States of America,40.1719,-88.8339,Nuclear
+United States of America,46.4711,-119.3339,Nuclear
+United States of America,32.2984,-97.7855,Nuclear
+United States of America,40.3628,-95.6408,Nuclear
+United States of America,41.5967,-83.0861,Nuclear
+United States of America,35.2115,-120.8555,Nuclear
+United States of America,41.9756,-86.5652,Nuclear
+United States of America,41.39,-88.27,Nuclear
+United States of America,42.1011,-91.7781,Nuclear
+United States of America,31.9342,-82.3447,Nuclear
+United States of America,41.9631,-83.2581,Nuclear
+United States of America,32.0081,-91.0478,Nuclear
+United States of America,34.4017,-80.1589,Nuclear
+United States of America,35.6334,-78.9556,Nuclear
+United States of America,41.2706,-73.9527,Nuclear
+United States of America,41.2706,-73.9526,Nuclear
+United States of America,43.5214,-76.4084,Nuclear
+United States of America,31.2231,-85.1116,Nuclear
+United States of America,41.2455,-88.6691,Nuclear
+United States of America,40.2243,-75.5874,Nuclear
+United States of America,35.4331,-80.9486,Nuclear
+United States of America,41.3107,-72.1677,Nuclear
+United States of America,45.3338,-93.8493,Nuclear
+United States of America,43.5211,-76.41,Nuclear
+United States of America,38.06,-77.7897,Nuclear
+United States of America,34.7939,-82.8986,Nuclear
+United States of America,39.4666,-75.5377,Nuclear
+United States of America,39.4625,-75.5358,Nuclear
+United States of America,42.323,-86.3146,Nuclear
+United States of America,33.3881,-112.8617,Nuclear
+United States of America,39.7589,-76.2687,Nuclear
+United States of America,41.8006,-81.1439,Nuclear
+United States of America,44.2806,-87.5369,Nuclear
+United States of America,44.622,-92.6333,Nuclear
+United States of America,41.7261,-90.3103,Nuclear
+United States of America,43.2777,-77.3099,Nuclear
+United States of America,30.757,-91.3327,Nuclear
+United States of America,42.8992,-70.8489,Nuclear
+United States of America,35.2267,-85.0917,Nuclear
+United States of America,28.795,-96.0481,Nuclear
+United States of America,27.3486,-80.2464,Nuclear
+United States of America,37.1661,-76.6986,Nuclear
+United States of America,41.0919,-76.1462,Nuclear
+United States of America,25.4356,-80.3308,Nuclear
+United States of America,34.2983,-81.3153,Nuclear
+United States of America,33.1427,-81.7625,Nuclear
+United States of America,29.9953,-90.4716,Nuclear
+United States of America,35.6021,-84.7895,Nuclear
+United States of America,38.2393,-95.6898,Nuclear
